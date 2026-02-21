@@ -1,4 +1,4 @@
-# Transparent Ruler Overlay (Chrome MV3)
+# Transparent Ruler Overlay
 
 Transparent on-page ruler overlay for quick UI checks in **px + cm**.
 
@@ -23,21 +23,13 @@ Transparent on-page ruler overlay for quick UI checks in **px + cm**.
 1. Open Chrome and go to `chrome://extensions`.
 2. Enable **Developer mode**.
 3. Click **Load unpacked**.
-4. Select this folder:
-   `/Users/anastasiias/Documents/gh_rule`
+4. Select the project folder.
 
 ## Notes
 
 - Works on regular `http/https` pages.
 - On internal browser pages (`chrome://...`) overlays are blocked by browser security.
 - Calibration is device-specific and stored locally.
-
-## Build zip
-
-```bash
-chmod +x /Users/anastasiias/Documents/gh_rule/scripts/build_zip.sh
-/Users/anastasiias/Documents/gh_rule/scripts/build_zip.sh
-```
 
 ## Donate
 
