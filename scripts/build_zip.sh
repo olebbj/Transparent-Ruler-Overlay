@@ -18,6 +18,7 @@ rm -f "$OUT_FILE"
     popup.html \
     popup.css \
     popup.js \
+    assets \
     icons \
     README.md \
     PRIVACY_POLICY.md \

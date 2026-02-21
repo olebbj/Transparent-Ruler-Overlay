@@ -138,3 +138,31 @@ kbd {
   font-weight: 700;
   padding: 10px;
 }
+
+.links-inline {
+  margin: 0;
+  font-size: 12px;
+  color: #37516c;
+  line-height: 1.4;
+}
+
+.text-link {
+  color: #0f5fd6;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.dot {
+  margin: 0 4px;
+}
+
+.mascot {
+  display: block;
+  width: 160px;
+  max-width: 100%;
+  margin: 4px auto 0;
+  image-rendering: auto;
+}

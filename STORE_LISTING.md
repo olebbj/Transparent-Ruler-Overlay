@@ -36,6 +36,13 @@ Transparent Ruler Overlay adds a clean, non-intrusive ruler on top of any webpag
 - No network requests
 - Preferences stored locally in browser storage only
 
+### Public links
+
+- Repository: [https://github.com/olebbj/Transparent-Ruler-Overlay](https://github.com/olebbj/Transparent-Ruler-Overlay)
+- README: [https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/README.md](https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/README.md)
+- Privacy Policy: [https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/PRIVACY_POLICY.md](https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/PRIVACY_POLICY.md)
+- Store Listing Draft: [https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/STORE_LISTING.md](https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/STORE_LISTING.md)
+
 ### Donate
 
 Support development: [https://ko-fi.com/qqq0315](https://ko-fi.com/qqq0315)
