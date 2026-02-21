@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transparent Ruler</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <h1>Transparent Ruler</h1>
+
+      <button id="toggleBtn" class="primary">Turn On</button>
+
+      <section class="card">
+        <p class="label">Orientation</p>
+        <div class="segmented" role="group" aria-label="Orientation">
+          <button id="orientationH" data-orientation="horizontal" class="segment">Horizontal</button>
+          <button id="orientationV" data-orientation="vertical" class="segment">Vertical</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="row">
+          <label for="opacityRange">Opacity</label>
+          <span id="opacityValue">45%</span>
+        </div>
+        <input id="opacityRange" type="range" min="20" max="90" step="1">
+        <div class="row">
+          <label for="thicknessRange">Thickness</label>
+          <span id="thicknessValue">72px</span>
+        </div>
+        <input id="thicknessRange" type="range" min="32" max="180" step="1">
+        <div class="row">
+          <label for="lengthRange">Length</label>
+          <span id="lengthValue">480px</span>
+        </div>
+        <input id="lengthRange" type="range" min="120" max="2400" step="10">
+        <div class="row">
+          <label for="themeSelect">Palette</label>
+          <select id="themeSelect">
+            <option value="steel">Steel</option>
+            <option value="graphite">Graphite</option>
+            <option value="ocean">Ocean</option>
+            <option value="emerald">Emerald</option>
+            <option value="amber">Amber</option>
+            <option value="rose">Rose</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="toggle-grid">
+          <label class="checkbox-row">
+            <input id="showPxToggle" type="checkbox" checked>
+            <span>Show PX scale</span>
+          </label>
+          <label class="checkbox-row">
+            <input id="showCmToggle" type="checkbox" checked>
+            <span>Show CM scale</span>
+          </label>
+        </div>
+        <div class="row">
+          <label for="densitySelect">Tick Density</label>
+          <select id="densitySelect">
+            <option value="sparse">Sparse</option>
+            <option value="normal">Normal</option>
+            <option value="dense">Dense</option>
+          </select>
+        </div>
+
+        <label class="checkbox-row">
+          <input id="snapToggle" type="checkbox">
+          <span>Snap to edges</span>
+        </label>
+      </section>
+
+      <section class="card pin-card">
+        <p class="label">Pin</p>
+        <div class="pin-grid">
+          <button id="pinCurrentBtn" class="ghost">Pin Here</button>
+          <button id="pinStartBtn" class="ghost">Pin Top/Left</button>
+          <button id="pinEndBtn" class="ghost">Pin Bottom/Right</button>
+          <button id="unpinBtn" class="ghost">Unpin</button>
+        </div>
+      </section>
+
+      <section class="card calibration-card">
+        <div class="row">
+          <p class="label">Centimeter Calibration</p>
+          <span id="calibrationStatus">Default</span>
+        </div>
+        <div class="pin-grid">
+          <button id="calibrateBtn" class="ghost">Calibrate cm</button>
+          <button id="resetCalibrationBtn" class="ghost">Reset calibration</button>
+        </div>
+      </section>
+
+      <p class="hint">On page: drag ruler directly with mouse. Unpin to move again.</p>
+      <p class="hint">Hotkeys: Option+R (toggle), Option+Shift+R (orientation) on Mac.</p>
+
+      <a class="donate" href="https://ko-fi.com/qqq0315" target="_blank" rel="noopener noreferrer">
+        Support on Ko-fi
+      </a>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

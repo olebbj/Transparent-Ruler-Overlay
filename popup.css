@@ -1,0 +1,140 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #f6f8fb 0%, #eef2f7 100%);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #14202d;
+}
+
+.popup {
+  width: 320px;
+  padding: 12px;
+  box-sizing: border-box;
+  display: grid;
+  gap: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(20, 32, 45, 0.15);
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.primary {
+  border: 1px solid #0f5fd6;
+  border-radius: 10px;
+  background: #0f5fd6;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.primary.is-off {
+  background: #0a9257;
+  border-color: #0a9257;
+}
+
+.label {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #30465e;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.segmented {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.segment,
+.ghost,
+select {
+  border: 1px solid rgba(20, 32, 45, 0.25);
+  border-radius: 8px;
+  background: #ffffff;
+  color: #14202d;
+  font-size: 13px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.segment.active {
+  background: #dbe9ff;
+  border-color: #0f5fd6;
+}
+
+.pin-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.toggle-grid {
+  display: grid;
+  gap: 6px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.checkbox-row input {
+  margin: 0;
+}
+
+.hint {
+  margin: 0;
+  font-size: 12px;
+  color: #37516c;
+}
+
+kbd {
+  border: 1px solid rgba(20, 32, 45, 0.25);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 1px 5px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 11px;
+}
+
+.donate {
+  display: block;
+  text-align: center;
+  border: 1px solid #ef8f25;
+  background: #ef8f25;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 10px;
+}
