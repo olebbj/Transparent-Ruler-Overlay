@@ -38,10 +38,10 @@ Transparent Ruler Overlay adds a clean, non-intrusive ruler on top of any webpag
 
 ### Public links
 
-- Repository: [https://github.com/olebbj/Transparent-Ruler-Overlay](https://github.com/olebbj/Transparent-Ruler-Overlay)
-- README: [https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/README.md](https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/README.md)
-- Privacy Policy: [https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/PRIVACY_POLICY.md](https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/PRIVACY_POLICY.md)
-- Store Listing Draft: [https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/STORE_LISTING.md](https://github.com/olebbj/Transparent-Ruler-Overlay/blob/main/STORE_LISTING.md)
+- Repository: [https://github.com/cafevoramar/Transparent-Ruler-Overlay](https://github.com/cafevoramar/Transparent-Ruler-Overlay)
+- README: [https://github.com/cafevoramar/Transparent-Ruler-Overlay/blob/main/README.md](https://github.com/cafevoramar/Transparent-Ruler-Overlay/blob/main/README.md)
+- Privacy Policy: [https://github.com/cafevoramar/Transparent-Ruler-Overlay/blob/main/PRIVACY_POLICY.md](https://github.com/cafevoramar/Transparent-Ruler-Overlay/blob/main/PRIVACY_POLICY.md)
+- Store Listing Draft: [https://github.com/cafevoramar/Transparent-Ruler-Overlay/blob/main/STORE_LISTING.md](https://github.com/cafevoramar/Transparent-Ruler-Overlay/blob/main/STORE_LISTING.md)
 
 ### Donate
 

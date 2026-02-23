@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Transparent Ruler Overlay",
   "description": "Transparent pixel + centimeter ruler overlay for fast visual spacing checks.",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "permissions": [
     "activeTab",
     "scripting",
